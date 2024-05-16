@@ -4,9 +4,9 @@ public class Rectangle extends Shape {
 
 	private int length;
 	private int width;
-	
+
 	public Rectangle() {
-		
+
 	}
 
 	public Rectangle(int length, int width) {
@@ -17,8 +17,8 @@ public class Rectangle extends Shape {
 
 	@Override
 	public double area() {
-		// TODO Auto-generated method stub
-		return 0;
+
+		return length * width;
 	}
 
 }
