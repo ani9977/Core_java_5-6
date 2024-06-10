@@ -4,7 +4,7 @@ public class TestCustomLoginEx {
 
 	public static void main(String[] args) throws LoginException    {
 
-		String loginId = null;
+		String loginId = "niket";
 
 		if (loginId == null || loginId != "Aniket") {
 

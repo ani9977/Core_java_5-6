@@ -1,13 +1,14 @@
 package in.co.Collection;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Iterator;
 
 public class ArraylistExample {
 
 	public static void main(String[] args) {
 
-		ArrayList l1 = new ArrayList();
+		Collection l1 = new ArrayList();
 
 		l1.add(10);
 		l1.add(20);
@@ -25,7 +26,7 @@ public class ArraylistExample {
 		Iterator it = l2.iterator();
 
 		while (it.hasNext()) {
-
+           l2.add("ijvbg");
 			System.out.println(it.next());
 
 		}

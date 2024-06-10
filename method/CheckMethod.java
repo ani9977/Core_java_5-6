@@ -6,7 +6,7 @@ public class CheckMethod {
 		System.out.println("hello students");
 	}
 
-	public static int addsum(int a, int b) {
+	public static int add(int a, int b) {
 		return a + b;
 
 	}
@@ -19,6 +19,8 @@ public class CheckMethod {
 	public static void main(String[] args) {
 		CheckMethod c = new CheckMethod();
 		c.sayhello();
+		c.multiply(10, 20);
+		System.out.println(c.add(10, 20));
 
 	}
 

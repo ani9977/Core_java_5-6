@@ -3,13 +3,14 @@ package in.co.exceptions;
 public class TestArithmetic {
 
 	public static void main(String[] args) {
-		
-		
-		String name = null;
+
+		String s[] = { "Raman" };
 		try {
-		System.out.println(name.charAt(10));
-		}catch(NullPointerException e) {
-			System.err.println("String Khali hai");
+          System.out.println(s.length);
+          System.out.println(s[10]);
+		} catch (ArrayIndexOutOfBoundsException e) {
+//			System.out.println("String ki length choti hai");
+			System.out.println();
 		}
 	}
 

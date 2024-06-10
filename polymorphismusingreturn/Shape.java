@@ -2,7 +2,7 @@ package in.co.polymorphismusingreturn;
 
 public class Shape {
 	public Shape() {
-		// TODO Auto-generated constructor stub
+
 	}
 
 	public double area() {
@@ -18,8 +18,8 @@ public class Shape {
 		if (i == 2) {
 			return new Circle(4);
 		}
-		if(i==3) {
-			return new Triangle(10,30);
+		if (i == 3) {
+			return new Triangle(10, 30);
 		}
 		return new Shape();
 	}

@@ -4,10 +4,9 @@ public class TryCatchFinally {
 
 	public static void main(String[] args) {
 
-		String name = "Ani";
+		String name = null ;
 		try {
-
-			System.out.println(name.charAt(6));
+			       System.out.println(name.charAt(6));
 		} catch (StringIndexOutOfBoundsException e) {
 			System.out.println("String Choti hai");
 		} catch (NullPointerException e) {

@@ -17,12 +17,12 @@ public class Rectangle extends Shape {
 		return length * width;
 	}
 
-	public int getLength() {
-		return length;
-	}
-
-	public int getWidth() {
-		return width;
-	}
+//	public int getLength() {
+//		return length;
+//	}
+//
+//	public int getWidth() {
+//		return width;
+//	}
 
 }

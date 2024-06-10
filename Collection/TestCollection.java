@@ -16,14 +16,14 @@ public class TestCollection {
 		c.add(10.20);
 		c.add(true);
 		c.add('a');
-		Collection c1 = new ArrayList();
-		c1.add(10);
-		c1.add(2);
-
+//		Collection c1 = new ArrayList();
+//		c1.add(10);
+//		c1.add(2);
+//
 		System.out.println(c);
-		System.out.println("Size:" + c.size());
-		System.out.println("AddCollection:" + c.addAll(c1));
-		System.out.println("After Add:" + c);
+//		System.out.println("Size:" + c.size());
+//		System.out.println("AddCollection:" + c.addAll(c1));
+//		System.out.println("After Add:" + c);
 //		System.out.println("Membership:" + c.contains(0));
 //		System.out.println("Iterator:" + c.iterator());
 //		System.out.println("Retain:" + c.retainAll(c1));

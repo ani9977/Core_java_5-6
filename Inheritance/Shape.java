@@ -4,10 +4,10 @@ public class Shape {
 	private String color;
 	private int borderwidth;
 
-	public Shape(String color) {
-		this.color = color;
-
-	}
+//	public Shape(String color) {
+//		this.color = color;
+//
+//	}
 
 	public int getBorderwidth() {
 		return borderwidth;
@@ -24,8 +24,5 @@ public class Shape {
 	public String getColor() {
 		return color;
 	}
-	public double area() {
-		return 0;
-		
-	}
+
 }

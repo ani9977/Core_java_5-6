@@ -14,7 +14,14 @@ public class SecondHighestSalary {
 		employees.add(new Employee("Charlie", 60000));
 		employees.add(new Employee("David", 80000));
 
-double secondHighestSalary = employees.stream().map(e -> e.getSalary()).distinct().sorted(Comparator.reverseOrder()).skip(1).findFirst().orElse(0.0);
+ double secondHighestSalary = employees
+  .stream()
+  .map(e -> e.getSalary())
+  .distinct()
+  .sorted(Comparator.reverseOrder())
+  .skip(1)
+  .findFirst()
+  .orElse(0.0);
 
 		System.out.println("Second highest salary: " + secondHighestSalary);
 	}

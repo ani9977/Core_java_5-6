@@ -60,8 +60,8 @@ public class Account {
 		System.out.println("Account Type: " + account.getAccount());
 		System.out.println("Balance: " + account.getBalance());
 
-//		account.deposit(1500.0);
+		account.deposit(15000.0);
 
-		account.withdraw(200.0);
+//		account.withdraw(200.0);
 	}
 }

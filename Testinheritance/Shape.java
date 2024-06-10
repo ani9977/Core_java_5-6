@@ -10,13 +10,13 @@ public class Shape {
 		this.color = color;
 	}
 
-	public String getColor() {
-		return color;
-	}
-
-	public int getBorderwidth() {
-		return borderwidth;
-	}
+//	public String getColor() {
+//		return color;
+//	}
+//
+//	public int getBorderwidth() {
+//		return borderwidth;
+//	}
 
 	public double area() {
 		return 0;

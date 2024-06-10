@@ -17,8 +17,8 @@ public class HashMapExample {
 		m.put(3, "three");
 		m.put(4, "four");
 
-//		System.out.println(m);
-//		System.out.println(m.get(2));
+		System.out.println(m);
+		System.out.println(m.get(2));
 
 		for (Object obj : m.entrySet()) {
 			Map.Entry entry = (Map.Entry) obj;
@@ -26,7 +26,7 @@ public class HashMapExample {
 			Object value = entry.getValue();
 			System.out.println("keys:" + key + "=" + "values:" + value);
 		}
-//		
+
 //		for (Object value : m.values()) {
 //            System.out.println("Value: " + value);
 //        }
