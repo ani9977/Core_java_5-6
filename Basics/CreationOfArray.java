@@ -3,7 +3,7 @@ package in.co.Basics;
 public class CreationOfArray {
 
 	public static void main(String[] args) {
-
+                //program for creating an array
 		int marks[] = new int[50];
 		int numbers[] = { 1, 2, 3, 4, };
 		String fruits[] = { "apple", "mango", "bnana" };
