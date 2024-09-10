@@ -5,7 +5,7 @@ import java.util.Date;
 public class DateClass {
 	
 	public static void main(String[] args) {
-		
+		//that is date program
 		Date d = new Date();
 		System.out.println(d);
 		System.out.println(d.getTime());
