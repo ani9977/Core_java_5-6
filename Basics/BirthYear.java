@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.time.Period;
 
 public class BirthYear {
-
+// yeh code birth year nikalta hai 
 	public static void main(String[] args) {
 
 //		int birth = 2002;
