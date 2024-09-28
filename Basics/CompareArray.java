@@ -13,6 +13,11 @@ public class CompareArray {
 			for (int j = 0; j < arr.length; j++) {
 
 				if (test[i] == arr[j]) {
+					System.out.println("hello");
+					
+				
+
+						
 
 				}
 
