@@ -10,7 +10,8 @@ public class Rectangle extends Shape {
 	}
 
 	public Rectangle(int length, int width) {
-
+       
+		System.out.println("this.length");
 		this.length = length;
 		this.width = width;
 	}
