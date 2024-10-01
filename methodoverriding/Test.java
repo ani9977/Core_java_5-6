@@ -9,10 +9,10 @@ public class Test {
 		Rectangle r = new Rectangle();
 		r.setLength(20);
 		r.setWidth(30);
-		Triangle t = new Triangle();
+		//Triangle t = new Triangle();
 		t.setBase(30);
 		t.setHeight(40);
-		System.out.println("Area of Circle:" + c.area());
+		System.out.println("Area of Circle:"  c.area());
 		System.out.println("Area of Triangle:" + t.area());
 		System.out.println("Area of Rectangle:" + r.area());
 
