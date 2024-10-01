@@ -6,9 +6,9 @@ import in.co.method.TestMethod;
 
 public class CommandLineMenu {
 
-	public static void main(String[] args) throws IOException {
+	// public static void main(String[] args) throws IOException {
 
-		int ch = System.in.read();
+		sint ch = System.in.read();
 		System.out.println("Selected char ASCII Code" + ch);
 		if (ch == 'A' || ch == 'a') {
 			DefineMethod.main(args);
