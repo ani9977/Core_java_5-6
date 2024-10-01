@@ -2,7 +2,7 @@ package in.co.Abstraction;
 
 public class Rectangle extends Shape {
 
-	private int length;
+	//private int length;
 	private int width;
 
 	public Rectangle() {

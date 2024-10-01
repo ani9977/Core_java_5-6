@@ -8,12 +8,13 @@ public class Employee implements Comparable<Employee> {
 
 	public Employee(int id, String name, int salary) {
 
-		this.id = id;
+		// this.id = id;
 		this.name = name;
 		this.salary = salary;
+
 	}
 
-	public int getId() {
+	public int getId(hello sir) {
 		return id;
 	}
 
