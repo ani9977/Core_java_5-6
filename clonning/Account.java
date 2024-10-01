@@ -6,6 +6,7 @@ public class Account implements Cloneable {
 
 	public Account(int balance) {
 		this.balance = balance;
+               System.out.println("this.balance");
 	}
 
 	@Override
