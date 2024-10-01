@@ -2,12 +2,12 @@ package in.co.clonning;
 
 public class Customer implements Cloneable {
 
-	public String name = null;
+	public String myName = null;
 
 	public Account account = null;
 
-	public Customer(String name) {
-		this.name = name;
+	public Customer(String myName) {
+		this.myName = myName;
 		this.account = new Account(100);
 	}
 
