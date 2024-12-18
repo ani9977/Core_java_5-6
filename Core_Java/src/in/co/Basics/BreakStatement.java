@@ -16,6 +16,7 @@ public class BreakStatement {
 
 		Scanner sc = new Scanner(System.in);
 		do {
+			System.out.println("welcome to breakstatement");
 			System.out.println("enter your number :");
 
 			int n = sc.nextInt();
