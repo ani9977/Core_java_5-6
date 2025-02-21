@@ -1,0 +1,8 @@
+file = open("Hello.txt",'w')
+file.write("hi\n")
+file.write("hi 2")
+file.close()
+file = open("Hello.txt",'r')
+text=file.read()
+print(text)
+file.close()

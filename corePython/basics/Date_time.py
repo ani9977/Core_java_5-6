@@ -1,0 +1,12 @@
+import datetime
+x=datetime.datetime(2002,12,3)
+print(x)
+print(x.year)
+print(x.strftime("%A"))
+print(type(x))
+print(x.strftime("%B") )
+print(x.strftime("%a"))
+print(x.strftime("%w"))
+print(x.strftime("%d"))
+print(x.strftime("%b"))
+print(x.strftime("%a"))
